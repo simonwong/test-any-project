@@ -1,7 +1,7 @@
 pipeline {
-  agent none
+  agent any
   stages {
-    stage('example') {
+    stage('Example') {
       steps {
         sh 'docker ps'
       }
